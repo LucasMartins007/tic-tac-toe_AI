@@ -156,8 +156,8 @@ if __name__ == '__main__':
             if verify_results():
                 break
 
-        key = input('Quer jogar de Novo? (S/N)')
+        key = input('Play again? (S/N)')
         if key not in ('S', 's'):
             break
 
-    print('\nFim de Jogo')
+    print('\nEnd Game')
